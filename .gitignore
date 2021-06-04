@@ -1,3 +1,11 @@
+# NetBeans specific #
+build/
+nbproject/
+nbproject/private/
+test/
+build.xml
+manifest.mf
+
 # Compiled class file
 *.class
 
