@@ -5,6 +5,8 @@ test/*
 build.xml
 manifest.mf
 
+#
+
 # Compiled class file
 *.class
 
