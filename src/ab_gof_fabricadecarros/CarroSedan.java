@@ -6,11 +6,12 @@ package ab_gof_fabricadecarros;
  */
 public class CarroSedan extends Carro {
 
-    CarroSedan() {
-        super(CategoriaDoCarro.SEDAN);
+    CarroSedan(Localizacao localizacao) {
+        super(CategoriaDoCarro.SEDAN, localizacao);
         construct();
     }
 
+    
     @Override
     protected void construct() {
         System.out.println("Fabricando Carro do Tipo Sedan");

@@ -10,18 +10,15 @@ public class FabricaDeCarroPadrao {
         Carro carro = null;
         switch (model) {
             case COMPACTO:
-                carro = new CarroCompacto();
-                carro.setLocation(Localizacao.PADRAO);
+                carro = new CarroCompacto(Localizacao.PADRAO);
                 break;
 
             case SEDAN:
-                carro = new CarroSedan();
-                carro.setLocation(Localizacao.PADRAO);
+                carro = new CarroSedan(Localizacao.PADRAO);
                 break;
 
             case LUXO:
-                carro = new CarroDeLuxo();
-                carro.setLocation(Localizacao.PADRAO);
+                carro = new CarroDeLuxo(Localizacao.PADRAO);
                 break;
 
             default:

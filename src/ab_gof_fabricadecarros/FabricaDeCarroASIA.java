@@ -10,18 +10,15 @@ public class FabricaDeCarroASIA {
         Carro car = null;
         switch (model) {
             case COMPACTO:
-                car = new CarroCompacto();
-                car.setLocation(Localizacao.ASIA);
+                car = new CarroCompacto(Localizacao.ASIA);
                 break;
 
             case SEDAN:
-                car = new CarroSedan();
-                car.setLocation(Localizacao.ASIA);
+                car = new CarroSedan(Localizacao.ASIA);
                 break;
 
             case LUXO:
-                car = new CarroDeLuxo();
-                car.setLocation(Localizacao.ASIA);
+                car = new CarroDeLuxo(Localizacao.ASIA);
                 break;
 
             default:

@@ -6,8 +6,8 @@ package ab_gof_fabricadecarros;
  */
 public class CarroCompacto extends Carro {
 
-    CarroCompacto() {
-        super(CategoriaDoCarro.COMPACTO);
+    CarroCompacto(Localizacao localizacao) {
+        super(CategoriaDoCarro.COMPACTO, localizacao);
         construct();
     }
 

@@ -11,9 +11,9 @@ public abstract class FabricaDeCarro {
     }
     
     //FabricaDeCarro.fabricarCarro(CategoriaDoCarro.COMPACTO, "ASIA"); (COMPACTO, SEDAN, LUXO)
-    public static Carro fabricarCarro(CategoriaDoCarro type, String pais) {
+    public static Carro fabricarCarro(CategoriaDoCarro type) {
         Carro carro = null;
-        Localizacao localizacao = Localizacao.valueOf(pais);
+        Localizacao localizacao = Localizacao.ASIA;
         switch (localizacao) {
             case BRASIL:
                 carro = FabricaDeCarroBrasil.fabricarCarro(type);

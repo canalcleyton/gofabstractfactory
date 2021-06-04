@@ -6,11 +6,11 @@ package ab_gof_fabricadecarros;
  */
 public class CarroDeLuxo extends Carro {
 
-    CarroDeLuxo() {
-        super(CategoriaDoCarro.LUXO);
+    CarroDeLuxo(Localizacao localizacao) {
+        super(CategoriaDoCarro.LUXO, localizacao);
         construct();
     }
-
+   
     @Override
     protected void construct() {
         System.out.println("Fabricando Carro de Luxo");
