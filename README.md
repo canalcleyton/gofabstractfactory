@@ -12,23 +12,15 @@ dependentes sem especificar suas classes concretas.
 
 -   Isolar a criação e o uso de um objeto;
 
--   Criar famílias de objetos sem que isso represente uma dependência
-    > destes com suas classes concretas;
+-   Criar famílias de objetos sem que isso represente uma dependência destes com suas classes concretas;
 
--   Permitir que em tempo de execução haja a troca de objetos concretos,
-    > sem que seja necessário alterar o código que estes usam;
+-   Permitir que em tempo de execução haja a troca de objetos concretos, sem que seja necessário alterar o código que estes usam;
 
--   No Factory Method um método de criação de objeto é invocado na
-    > classe principal, sabendo qual classe deve ser instanciada, porém
-    > no Abstract Factory é regra que a classe principal não saiba onde
-    > serão criados os objetos;
+-   No Factory Method um método de criação de objeto é invocado na classe principal, sabendo qual classe deve ser instanciada, porém no Abstract Factory é regra que a classe principal não saiba onde serão criados os objetos;
 
--   Este padrão possui um objeto (uma Abstract Factory) e usa este
-    > objeto para chamar os métodos de criação;
+-   Este padrão possui um objeto (uma Abstract Factory) e usa este objeto para chamar os métodos de criação;
 
--   Dependendo do tipo de referência para ser enviado para a
-    > instanciação de um objeto, o objeto resultante poderá ser
-    > totalmente diferente;
+-   Dependendo do tipo de referência para ser enviado para a instanciação de um objeto, o objeto resultante poderá ser totalmente diferente;
 
 **Detalhamento**
 
