@@ -14,6 +14,8 @@ public class CarroCompacto extends Carro {
     @Override
     protected void construct() {
         System.out.println("Fabricando Carro Compacto");
-        // add accessories
+        System.out.println("Acessorio 1: Preparação para som");
+        System.out.println("Acessorio 2: Travas eletricas");
+        // adicione acessorios
     }
 }

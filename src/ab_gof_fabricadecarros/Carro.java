@@ -36,6 +36,6 @@ public abstract class Carro {
 
     @Override
     public String toString() {
-        return "Modelo- "+model + " Local de fabricacao: "+location;
+        return "Modelo- "+model + " Local de fabricacao: "+location+" \n";
     }    
 }

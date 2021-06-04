@@ -14,6 +14,9 @@ public class CarroDeLuxo extends Carro {
     @Override
     protected void construct() {
         System.out.println("Fabricando Carro de Luxo");
-        // add accessories
+        System.out.println("Acessorio 1: Farol de xeon");
+        System.out.println("Acessorio 2: Regulagem eletronica dos bancos");
+        System.out.println("Acessorio 3: Regulagem de altura e profundidade do volante");
+        // adicione acessorios
     }
 }
