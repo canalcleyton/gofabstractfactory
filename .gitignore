@@ -1,8 +1,7 @@
 # NetBeans specific #
-build/
-nbproject/
-nbproject/private/
-test/
+build/*
+nbproject/*
+test/*
 build.xml
 manifest.mf
 
